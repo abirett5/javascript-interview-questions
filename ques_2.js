@@ -36,3 +36,6 @@ obj.display.call(obj1);
 
 // We didn't get anything in the output when using arrow function, why?
 // Because the arrow function is pointing to the global scope or window object.
+
+/* In the window object there is no such variable called "name". That's the main reason, 
+we didn't get any output from here. */
