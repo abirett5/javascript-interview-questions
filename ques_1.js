@@ -3,7 +3,11 @@
 function abc() {
     console.log(a);
 
-    // let & const will be hoisted as well, but they are going to the temporal dead zone
+    // let & const will be hoisted as well, but they are going to the temporal dead zone.
+    
+    /* Temporal dead zone is they (const & let variables) are in the scope but they have not 
+    been declared yet. */
+    
     const c = 30;
     let b = 20;
 
