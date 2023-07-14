@@ -1,3 +1,5 @@
+// Q-1: Hoisting
+
 function abc() {
     console.log(a);
 
