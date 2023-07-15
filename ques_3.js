@@ -1,5 +1,6 @@
 // Q-3: Implement Caching/Memoize Function
 
+// Creating memoize function to store previous arguments data
 function myMemoize(fn, context) {
     const res = {};
     return function(...args) {
@@ -11,6 +12,7 @@ function myMemoize(fn, context) {
     }
 }
 
+// Functions for clumsy product
 const clumsyProduct = (num1, num2) => {
     for (let i = 1; i <= 100000000; i++) {
 
